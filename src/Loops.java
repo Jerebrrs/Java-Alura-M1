@@ -13,7 +13,8 @@ public class Loops {
 
             mediaEvaluaciones += nota;
 
-            System.out.println("Media evaluaciones para Matrix es : " + mediaEvaluaciones/3);
+            System.out.println("Media evaluaciones para Matrix es : " + mediaEvaluaciones / 3);
         }
+        teclado.close();
     }
 }

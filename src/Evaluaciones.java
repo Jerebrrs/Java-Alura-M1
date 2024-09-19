@@ -12,13 +12,12 @@ public class Evaluaciones {
             System.out.println("Reescribe la nota que le darias a la pelicula Matrix.");
             nota = teclado.nextDouble();
 
-
             if (nota != -1) {
                 mediaEvalucion += nota;
                 totalEvaluacion++;
             }
         }
         System.out.println("Media evaluaciones para Matrix es : " + mediaEvalucion / totalEvaluacion);
-
+        teclado.close();
     }
 }
